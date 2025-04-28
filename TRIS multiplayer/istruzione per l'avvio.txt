@@ -1,7 +1,0 @@
-mvn clean install
-
-cd server
-mvn exec:java -Dexec.mainClass="it.tris.server.ServerMain"
-
-cd client
-mvn exec:java -Dexec.mainClass="it.tris.client.ClientMain" -Dexec.args="--module-path C:/javafx-sdk-21/lib --add-modules javafx.controls,javafx.fxml"
